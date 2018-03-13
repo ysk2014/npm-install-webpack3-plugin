@@ -1,0 +1,37 @@
+{
+  "name": "npm-install-webpack3-plugin",
+  "version": "1.0.0",
+  "description": "Webpack3 loader to automatically npm install & save dependencies.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysk2014/npm-install-webpack3-plugin.git"
+  },
+  "author": {
+    "name": "claus",
+    "url": "https://github.com/ysk2014"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ysk2014/npm-install-webpack3-plugin/issues"
+  },
+  "homepage": "https://github.com/ysk2014/npm-install-webpack3-plugin#readme",
+  "dependencies": {
+    "cross-spawn": "^5.0.1",
+    "json5": "^0.5.1",
+    "memory-fs": "^0.4.1",
+    "resolve": "^1.2.0"
+  },
+  "peerDependencies": {
+    "webpack": "^3.0.0"
+  }
+}
